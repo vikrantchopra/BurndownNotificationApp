@@ -61,5 +61,8 @@ dependencies {//compile group: '', name: '', version: ''
 	
 	compile group: 'org.spockframework', name: 'spock-core', version: '0.7-groovy-2.0'
 	
+}
 
+task wrapper(type: Wrapper) {
+	gradleVersion = '2.0'
 }
